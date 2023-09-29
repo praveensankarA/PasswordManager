@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.password-manager-main-background-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  margin-top: -0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.password-manager-logo {
+  width: 150px;
+  align-self: flex-start;
+}
+.input-main-container {
+  background-color: #5763a5;
+  min-height: 50vh;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.password-manager-logo-image-sm {
+  width: 70%;
+  margin: 20px 0px;
+}
+.input-card-container {
+  min-height: 30vh;
+  width: 80%;
+  border-radius: 12px;
+  margin: 20px 10px;
+  margin-bottom: 30px;
+  background-color: #454f84;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  padding-bottom: 40px;
+}
+.input-card-main-head {
+  color: #fff;
+  font-size: x-large;
+}
+.password-manager-logo-image-lg {
+  display: none;
+}
+.input-ele-img-ele-container {
+  display: flex;
+  margin: 8px 0px;
+}
+.input-ele-label-logo {
+  width: 35px;
+  border-color: #fff;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 38px;
+  margin-top: 1px;
+  padding: 8px;
+  background-color: #fff;
+}
+.input-ele {
+  padding: 10px 10px;
+  width: 100%;
+  outline: none;
+}
+.add-btn {
+  font-weight: 700;
+  color: #fff;
+  padding: 6px 25px;
+  border-radius: 1px;
+  font-size: 18px;
+  font-family: 'roboto';
+  align-self: flex-end;
+  background-color: #0b69ff;
+  border: 0px;
+  outline: none;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.password-page-main-card {
+  width: 100%;
+  padding: 30px 30px;
+  min-height: 50vh;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #5763a5;
+}
+.password-page-main-heading {
+  color: #f8fafc;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.password-page-search-and-title-card {
+  display: flex;
+  justify-content: space-between;
+  width: 110%;
+  align-items: center;
+}
+.heading-count-card {
+  display: flex;
+  align-items: center;
+  /* width: 60%; */
+}
+.password-count-ele {
+  margin-left: 5px;
+  background-color: #5763a5;
+  color: #fff;
+  padding: 1px 10px;
+  margin-right: 9px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.input-ele-label-search-logo {
+  width: 28px;
+  margin-top: 1px;
+  height: 28px;
+  padding: 5px 5px;
+  background-color: #fff;
+}
+
+.search-input-ele {
+  padding: 5px 8px;
+  width: 70%;
+  outline: none;
+}
+hr {
+  width: 100%;
+  color: #9ba9eb;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+.checkbox-input-ele {
+  height: 50px;
+  width: 17px;
+}
+.show-password-text {
+  color: #fff;
+  font-size: 17px;
+}
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-passwords-image {
+  width: 50%;
+}
+.no-password-title {
+  color: #fff;
+  font-size: 20px;
+}
+.password-ele-card-main-container {
+  display: flex;
+  padding: 0;
+  margin-right: 15px;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.password-ele-card-container {
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #9ba9eb;
+  width: 100%;
+  margin: 10px;
+}
+.password-logo {
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 20px;
+  width: 30px;
+}
+.password-name-url-password-container {
+  color: #fff;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+.password-star-image {
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.password-ele {
+  margin-top: 0px;
+}
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  border: 0px;
+}
+.name {
+  margin-top: 0px;
+}
+.delete-btn-image {
+  width: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .password-manager-logo-image-sm {
+    display: none;
+  }
+  .input-main-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+  }
+  .input-card-container {
+    width: 40%;
+    padding: 10px 20px;
+  }
+  .password-manager-logo-image-lg {
+    display: inline;
+    width: 40%;
+  }
+  .input-card-main-head {
+    align-self: flex-start;
+  }
+  .input-ele-label-logo {
+    height: 37.8px;
+    width: 40px;
+  }
+  .input-ele-label-search-logo {
+    width: 35px;
+    padding: 5px 8px;
+    background-color: #fff;
+  }
+  .password-page-main-card {
+    min-height: 50vh;
+  }
+  .password-page-search-and-title-card {
+    width: 100%;
+  }
+  .password-page-main-heading {
+    font-size: 20px;
+  }
+  .password-ele-card-main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 0px;
+  }
+  .password-ele-card-container {
+    width: 30%;
+  }
+}
