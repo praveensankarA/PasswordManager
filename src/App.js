@@ -237,31 +237,4 @@ class App extends Component {
 
 export default App
 
-// {
-/* 
- <li className="password-ele-card-container">
-                <h1 className="password-logo">
-                  {each.websiteUrl[0].toUpperCase()}
-                </h1>
-                <div className="password-name-url-password-container">
-                  <p className="Website-name">youtube.com</p>
-                  <p className="name">praveen</p>
-                  {isPasswordShow ? (
-                    <p className="password-ele">aaaaa@1234</p>
-                  ) : (
-                    <img
-                      src="https://assets.ccbp.in/frontend/react-js/password-manager-stars-img.png"
-                      alt="stars"
-                      className="password-star-image"
-                    />
-                  )}
-                </div>
-                <button className="delete-btn" type="button">
-                  <img
-                    src="https://assets.ccbp.in/frontend/react-js/password-manager-delete-img.png "
-                    alt="delete"
-                    className="delete-btn-image"
-                  />
-                </button>
-              </li> */
-// }
+
